@@ -1,0 +1,25 @@
+.container {
+  background: rgb(29,17,180);
+  background: linear-gradient(90deg, rgba(29,17,180,1) 12%, rgba(183,195,14,1) 48%, rgba(189,99,11,1) 100%);
+}
+
+.head {
+  border-bottom: 10px red;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(100, 72, 72);
+  position:sticky;
+  flex: content;
+  flex-flow:column;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 20%;
+}
+
+button:hover {
+  background: gold;
+  outline: dotted red;
+}
